@@ -7,7 +7,11 @@ def intro_line(first_name, last_name, hobby):
         intro_line("Ava", "Smith", "reading") -> prints "Ava | Smith | reading"
     """
     # TODO: replace the line below with your solution
-    pass
+    first_name="Ava"
+    last_name="Smith"
+    hobby="reading"
+    print(first_name, last_name, hobby, sep=" | ")
+
 
 
 def loading_message():
